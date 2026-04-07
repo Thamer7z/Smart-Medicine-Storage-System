@@ -1,31 +1,33 @@
 # Smart Medicine Storage System
 
 ## Overview
-Embedded system designed to monitor temperature and humidity in real-time and maintain safe storage conditions for medicine.
+Embedded system designed to monitor temperature and humidity in real-time and maintain safe storage conditions for medicine using PIC18F4580 microcontroller.
 
 ## Features
-- Temperature & Humidity Monitoring (DHT22)
+- Temperature & Humidity Monitoring
 - Real-time alerts
 - Automatic cooling control (fan system)
 
-## Components
-- ESP32 / Arduino
-- DHT22 Sensor
-- Fan module
+## Hardware Components
+- PIC18F4580 Microcontroller
+- Temperature & Humidity Sensor (DHT22)
+- Cooling Fan
+- Display Module (optional)
+
+## System Functionality
+- Reads environmental data continuously
+- Compares readings with predefined safe thresholds
+- Activates cooling system when limits are exceeded
+- Generates alerts for unsafe conditions
+
+## Tools Used
+- MPLAB / Embedded C
+- Proteus (optional for simulation)
 
 ## 📄 Documentation
 - [System Report](report.pdf)
 
-## Functionality
-- Reads environmental data continuously
-- Compares readings with safe thresholds
-- Activates cooling system when needed
-- Generates alerts for unsafe conditions
-
-## Tools Used
-- Arduino IDE
-- Embedded C
-
-## Future Improvements
-- Mobile application integration
-- Data logging and analytics
+## Challenges
+- Interfacing sensors with PIC microcontroller
+- Ensuring stable readings and calibration
+- Efficient control of cooling system
