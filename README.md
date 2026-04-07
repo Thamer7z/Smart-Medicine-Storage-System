@@ -1,27 +1,28 @@
-# Smart Medicine Storage System
+# ESP32 PCB Design
 
 ## Overview
-Embedded system designed to monitor temperature and humidity in real-time and maintain safe storage conditions for medicine.
+Custom ESP32-based PCB designed using Altium Designer with focus on power distribution and signal integrity for embedded systems applications.
 
-## Features
-- Temperature & Humidity Monitoring (DHT22)
-- Real-time alerts
-- Automatic cooling control (fan system)
+## Key Features
+- USB-C Interface
+- Optimized Ground Plane
+- Stable Power Design
+- Embedded System Integration
 
-## Components
--  Arduino
-- DHT22 Sensor
-- Fan module
-
-## System Preview
-![System](Images/system.png)
-
-## Functionality
-- Reads environmental data
-- Compares with safe thresholds
-- Activates cooling system when needed
-- Sends alerts
-
-## Tools
+## Tools Used
+- Altium Designer
+- ESP32
 - Arduino IDE
-- Embedded C
+
+## 📄 Documentation
+- [Design Report](report.pdf)
+
+## Challenges
+- Routing constraints and layout optimization
+- Maintaining stable power delivery
+- Signal integrity considerations
+
+## Future Improvements
+- Add Ethernet (RMII)
+- Add RS-422 interface
+- Improve high-speed routing
