@@ -25,7 +25,7 @@ Embedded system designed to monitor temperature and humidity in real-time and ma
 - Proteus (optional for simulation)
 
 ## 📄 Documentation
-- [System Report](report.pdf)
+[System Report](Docs/EE366 Project Final Report.pdf)
 
 ## Challenges
 - Interfacing sensors with PIC microcontroller
